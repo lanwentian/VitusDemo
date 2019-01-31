@@ -1,3 +1,4 @@
+
 //
 //  VitusPerson.m
 //  testDemo
@@ -9,5 +10,9 @@
 #import "VitusPerson.h"
 
 @implementation VitusPerson
+
+- (void)eat {
+    NSLog(@"%@正在吃", self.name);
+}
 
 @end

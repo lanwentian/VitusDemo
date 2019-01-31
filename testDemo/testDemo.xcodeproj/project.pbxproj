@@ -15,6 +15,7 @@
 		94C3603D2202B21B009F2740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C3603C2202B21B009F2740 /* main.m */; };
 		94C360472202B21B009F2740 /* testDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C360462202B21B009F2740 /* testDemoTests.m */; };
 		94C360522202B21C009F2740 /* testDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C360512202B21C009F2740 /* testDemoUITests.m */; };
+		94C360622202B6E8009F2740 /* VitusPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C360612202B6E8009F2740 /* VitusPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		94C3604D2202B21C009F2740 /* testDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C360512202B21C009F2740 /* testDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemoUITests.m; sourceTree = "<group>"; };
 		94C360532202B21C009F2740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C360602202B6E8009F2740 /* VitusPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitusPerson.h; sourceTree = "<group>"; };
+		94C360612202B6E8009F2740 /* VitusPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VitusPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 		94C3605F2202B268009F2740 /* testFramework */ = {
 			isa = PBXGroup;
 			children = (
+				94C360602202B6E8009F2740 /* VitusPerson.h */,
+				94C360612202B6E8009F2740 /* VitusPerson.m */,
 			);
 			name = testFramework;
 			path = ../../testFramework;
@@ -273,6 +278,7 @@
 			files = (
 				94C360322202B219009F2740 /* ViewController.m in Sources */,
 				94C3603D2202B21B009F2740 /* main.m in Sources */,
+				94C360622202B6E8009F2740 /* VitusPerson.m in Sources */,
 				94C3602F2202B219009F2740 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
