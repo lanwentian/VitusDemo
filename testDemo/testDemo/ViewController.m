@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, testFrameworktypically from a nib.
     
     VitusPerson *person = [[VitusPerson alloc] init];
     person.name = @"啥地方";
